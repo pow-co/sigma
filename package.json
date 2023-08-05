@@ -24,7 +24,8 @@
   "dependencies": {
     "@types/jest": "^29.5.1",
     "axios": "^1.4.0",
-    "bsv-wasm": "^2.0.1"
+    "bsv-wasm": "^2.0.1",
+    "bsv-wasm-bundler": "^2.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.22.9",

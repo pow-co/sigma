@@ -8,7 +8,12 @@ import {
   Signature,
   Transaction,
   TxOut,
-} from "bsv-wasm";
+} from "bsv-wasm-bundler";
+
+import * as bsv from 'bsv-wasm-bundler'
+
+export { bsv }
+
 import { Buffer } from "buffer";
 export type AuthToken = {
   type: "header" | "query";

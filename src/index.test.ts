@@ -134,7 +134,7 @@ describe("Sigma Protocol", () => {
     assert.strictEqual(sigma.verify(), true);
   });
 
-  it("specity an input to sign", () => {
+  it("specify an input to sign", () => {
     // This is useful for calculating accurate fees considering the size of the
     // signature
 
